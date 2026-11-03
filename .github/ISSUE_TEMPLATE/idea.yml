@@ -1,0 +1,22 @@
+name: Capture an idea
+description: Quick capture for a future recipe, experiment, or app
+title: "[Idea] "
+labels: []
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [Recipe, Experiment, App, Pattern, Not sure yet]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What am I trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Links, notes, and next step
