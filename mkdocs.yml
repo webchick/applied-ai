@@ -1,0 +1,25 @@
+site_name: Applied AI Field Guide
+site_description: Practical recipes, experiments, patterns, and apps
+site_url: https://webchick.github.io/applied-ai/
+repo_url: https://github.com/webchick/applied-ai
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+nav:
+  - Home: index.md
+  - Recipes: recipes/index.md
+  - Local LLM on Apple Silicon: recipes/local-llm-apple-silicon.md
+  - Experiments: experiments/index.md
+  - Projects: projects/index.md
+  - Local Reading Companion: projects/local-reading-companion.md
+  - Patterns: patterns/index.md
